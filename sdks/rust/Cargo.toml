@@ -1,3 +1,4 @@
+# Copyright 2024 Bitwise IO, Inc.
 # Copyright 2018 Cargill Incorporated
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -21,7 +22,7 @@ description = """\
     Sawtooth Sabre is a transaction family which implements on-chain smart \
     contracts executed in a WebAssembly virtual machine.
 """
-documentation = "https://sawtooth.hyperledger.org/docs/1.2/sabre/"
+documentation = "https://sawtooth.splinter.dev/docs/1.2/sabre/sabre_transaction_family.html"
 edition = "2018"
 
 
@@ -53,4 +54,4 @@ experimental = [
 ]
 
 [patch.crates-io]
-sawtooth = { git = "https://github.com/hyperledger/sawtooth-lib" }
+sawtooth = { git = "https://github.com/splintercommunity/sawtooth-lib" }

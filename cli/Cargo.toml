@@ -47,4 +47,4 @@ experimental = [
 ]
 
 [patch.crates-io]
-sawtooth = { git = "https://github.com/hyperledger/sawtooth-lib" }
+sawtooth = { git = "https://github.com/splintercommunity/sawtooth-lib" }
